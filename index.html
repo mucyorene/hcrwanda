@@ -1,22 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("inc/connect.php");?>
 <head>
-    <?php
-     include("inc/header.php");?>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RWANDA HIGH COMMISSION</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img2/1.jpg" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
 
   <div class="click-closed"></div>
-  <?php include("inc/searchForm.php");?>
-  <?php
-    include("inc/nav.php");
-  ?>
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search anything</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="Type">Type</label>
+              <input type="text" id="searchInput" id="search" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <!-- <button type="submit" class="btn btn-outline-primary btn-sm">Search Space</button> -->
+          </div>
+        </div>
+      </form>
+      <span id="results"></span>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="row">
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="top fixed-top" style="width:100%;">Rwanda</div>&nbsp;
+          </div>
+        </div>
+    </div>
+</div> -->
+<div>
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-2 col-lg-2"><br>
+              <img src="assets/img2/hcCanada.jpg" style="height:95px;" alt=""  srcset="" class="bg-image img img-fluid">
+          </div>
+          <div class="col-sm-12 col-md-10 col-lg-10">
+
+          </div>
+      </div>
+  </div>
+</div>&nbsp;
+
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg" style="background-color:#142e5b !important;">
+  <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+      </button>
+      <!-- <a class="navbar-brand text-brand" href="">Spa<span class="color-b">co</span></a> -->
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
+      <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" id="navHome" href="index">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single">Property Single</a>
+                  <a class="dropdown-item" href="blog-single">Blog Single</a>
+                  <a class="dropdown-item" href="agents-grid">Agents Grid</a>
+                  <a class="dropdown-item" href="agent-single">Agent Single</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single">Property Single</a>
+                  <a class="dropdown-item" href="blog-single">Blog Single</a>
+                  <a class="dropdown-item" href="agents-grid">Agents Grid</a>
+                  <a class="dropdown-item" href="agent-single">Agent Single</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single">Property Single</a>
+                  <a class="dropdown-item" href="blog-single">Blog Single</a>
+                  <a class="dropdown-item" href="agents-grid">Agents Grid</a>
+                  <a class="dropdown-item" href="agent-single">Agent Single</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single">Property Single</a>
+                  <a class="dropdown-item" href="blog-single">Blog Single</a>
+                  <a class="dropdown-item" href="agents-grid">Agents Grid</a>
+                  <a class="dropdown-item" href="agent-single">Agent Single</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="property-single">Property Single</a>
+                  <a class="dropdown-item" href="blog-single">Blog Single</a>
+                  <a class="dropdown-item" href="agents-grid">Agents Grid</a>
+                  <a class="dropdown-item" href="agent-single">Agent Single</a>
+              </div>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" id="navContact" href="contact">Contact</a>
+          </li>
+      </ul>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
+      <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="intro intro-carousel">
     <div id="carousel" class="owl-carousel owl-theme">
 
-        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/4.jpg);">
+        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/backs1.jpg);">
           <div class="overlay overlay-a"></div>&nbsp;<br><br><br><br><br><br><br><br>
           <div class="intro-content text-center display-table">
             <div class="table-cell">
@@ -26,7 +194,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/2.jpg);">
+        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/backs2.jpg);">
           <div class="overlay overlay-a"></div>&nbsp;<br><br><br><br><br><br><br><br>
           <div class="intro-content text-center display-table">
             <div class="table-cell">
@@ -36,7 +204,7 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/1.jpg);">
+        <div class="carousel-item-a intro-item bg-image" style="background-image: url(assets/img2/backs2.jpg);">
           <div class="overlay overlay-a"></div>&nbsp;<br><br><br><br><br><br><br><br>
           <div class="intro-content text-center display-table">
             <div class="table-cell">
@@ -399,7 +567,180 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-    <?php include("inc/footer.php");?>  
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h5 class="w-title-a text-brand">Rwanda Embassy</h5>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
+                sed aute irure.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Phone</span> +250788890071</li>
+                <li class="color-a">
+                  <span class="color-text-a">Email </span> info@spacecompany.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h5 class="w-title-a text-brand">Contact us</h5>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h5 class="w-title-a text-brand">Office Hours</h5>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="spaces">Spaces</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="companies">Companies</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="about">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="contact">Contact</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="login">Sign in</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">High Commission Rwanda</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+            Designed by <a href="">Rwanda High Commission</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- End  Footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
